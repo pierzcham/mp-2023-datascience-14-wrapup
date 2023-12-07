@@ -1,0 +1,34 @@
+---
+title: "Lab - Wrapping up work on the projects"
+output: 
+  tufte::tufte_html:
+    css: ../lab.css
+    tufte_variant: "envisioned"
+    highlight: pygments
+    toc: yes
+link-citations: true
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+This week you'll continue working on your projects.
+
+# Project progress
+
+1. **Customizing your website theme:** (Optional) Edit the `_config.yml` document to change the theme of your project website.
+    Your options are [architect](https://pages-themes.github.io/architect), [cayman](https://pages-themes.github.io/cayman), [dinky](https://pages-themes.github.io/dinky), [hacker](https://pages-themes.github.io/hacker), [leap-day](https://pages-themes.github.io/leap-day), [merlot](https://pages-themes.github.io/merlot), [midnight](https://pages-themes.github.io/midnight), [minima](https://pages-themes.github.io/minima), [minimal](https://pages-themes.github.io/minimal), [modernist](https://pages-themes.github.io/modernist), [slate](https://pages-themes.github.io/slate), [tactile](https://pages-themes.github.io/tactile), and [time-machine](https://pages-themes.github.io/time-machine).
+    Suppose you want the `architect` theme, you'd add `theme: architect` to the `_config.yml` document, save, commit, and push.
+
+2. **Updating your project description:** If you have not yet done so, add a brief description, link to your project website, and topics to your project repo.
+
+3. **Citing your data:** Now is the time to fix up those citations!
+    In your project README there is a link to a resource for properly citing data.
+    Develop a citation for your dataset and add it under the data section using this guidance.
+    If you have questions, ask a tutor for help!
+
+4. **Confirming presentation format:** Go to the website for your repo and click on the link that should take you to your presentation.
+    Confirm that your latest changes to the presentation are reflected at this link (which means you must have pushed the resulting HTML file along with the Rmd file where you wrote your presentation).
+
+5. **Strongly recommended:** Get a hold of a tutor and run your ideas by them.
